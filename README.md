@@ -79,4 +79,3 @@ When either fires, the agent hands off with a structured escalation ticket and a
 ## Architecture note
 
 The AI (Claude) decides what to say and which tools to call. Deterministic TypeScript code handles all external API calls, all eligibility checks, and all writes to Shopify. Claude cannot bypass the return eligibility check by reasoning around it — the tool re-validates independently before any action is taken.
-# ArcWood
