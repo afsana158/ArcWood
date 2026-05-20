@@ -1,0 +1,38 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* app/globals.css */
+:root {
+  --sand:    #F5F0E8;
+  --cream:   #FAF7F2;
+  --bark:    #3D2E1E;
+  --walnut:  #6B4C30;
+  --copper:  #B5703B;
+  --mist:    #E8E2D9;
+  --slate:   #7A7068;
+  --white:   #FFFFFF;
+
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-xl:  28px;
+
+  --shadow-soft: 0 2px 12px rgba(61, 46, 30, 0.08);
+  --shadow-lift: 0 8px 32px rgba(61, 46, 30, 0.14);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  font-family: var(--font-body);
+  background: var(--sand);
+  color: var(--bark);
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
